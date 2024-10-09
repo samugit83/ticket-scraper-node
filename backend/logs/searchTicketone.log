@@ -1,0 +1,83 @@
+2024-09-23 09:57:19,100 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 09:57:19,104 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 09:58:00,314 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 09:58:01,496 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 09:58:01,501 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 09:58:39,716 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 09:58:40,639 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 09:58:40,643 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:01:03,389 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/sqs_utils.py', reloading
+2024-09-23 10:01:04,587 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:01:04,593 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:04:33,534 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/sqs_utils.py', reloading
+2024-09-23 10:04:34,428 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:04:34,431 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:04:35,458 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/sqs_utils.py', reloading
+2024-09-23 10:04:36,418 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:04:36,421 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:32:09,631 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:32:10,855 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:32:10,858 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:55:40,259 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:55:41,483 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:55:41,492 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:55:59,636 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:56:00,639 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:56:00,643 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:56:03,669 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:56:04,886 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:56:04,890 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:56:11,941 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:56:12,975 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:56:12,978 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:56:20,025 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:56:21,090 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:56:21,093 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:56:45,256 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:56:46,349 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:56:46,355 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:58:30,961 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:58:32,217 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:58:32,222 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:58:37,261 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:58:38,237 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:58:38,241 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:58:44,294 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:58:45,343 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:58:45,347 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 10:58:58,434 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 10:58:59,428 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 10:58:59,431 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:02:45,499 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:02:46,438 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:02:46,441 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:02:52,487 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:02:53,869 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:02:53,872 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:05:09,519 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:05:10,672 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:05:10,677 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:53:56,696 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:53:57,642 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:53:57,647 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:54:13,741 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:54:14,701 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:54:14,705 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:54:20,743 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:54:21,643 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:54:21,646 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:54:31,703 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:54:32,756 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:54:32,761 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:56:09,227 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:56:10,525 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:56:10,529 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:56:28,657 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:56:29,834 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:56:29,839 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:56:35,890 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:56:36,948 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:56:36,951 - werkzeug - INFO -  * Debugger PIN: 673-012-325
+2024-09-23 11:56:38,973 - werkzeug - INFO -  * Detected change in '/home/ubuntu/ticket-scraper/backend/scrape.py', reloading
+2024-09-23 11:56:40,030 - werkzeug - WARNING -  * Debugger is active!
+2024-09-23 11:56:40,034 - werkzeug - INFO -  * Debugger PIN: 673-012-325
