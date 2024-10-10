@@ -5795,3 +5795,130 @@ Stacktrace:
 2024-10-10 17:20:38,952 - __main__ - INFO - Elaborating query: Twenty One Pilots
 2024-10-10 17:20:38,952 - __main__ - INFO - Using proxy: 213.204.21.104:50100
 2024-10-10 17:20:39,316 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:20:56,367 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=Twenty One Pilots
+2024-10-10 17:20:56,480 - __main__ - INFO - 0 events found
+2024-10-10 17:21:04,557 - __main__ - INFO - 🏁 Process completed (ID: 100549) - Duration: 0.71 min, Search pages scraped: 2, Found events: 1, Final ticket pages scraped: 0, Notifications sent: 0
+2024-10-10 17:21:04,558 - __main__ - INFO - CPU usage: 28.10% | Memory usage: 87.39 MB
+2024-10-10 17:21:04,558 - __main__ - INFO - Lock released.
+2024-10-10 17:21:13,612 - __main__ - INFO - 
+
+
+2024-10-10 17:21:13,612 - __main__ - INFO - 🚀 Starting new process (ID: 101589)
+2024-10-10 17:21:13,638 - botocore.credentials - INFO - Found credentials from IAM Role: AllowEC2ReceiveDeleteMessagesTaskTicketQueue
+2024-10-10 17:21:13,783 - sqs_utils - INFO - Retrieved 10 messages that will be deleted.
+2024-10-10 17:21:13,892 - __main__ - INFO - Search query list: ['Twenty One Pilots', 'ANNA']
+2024-10-10 17:21:13,978 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:21:14,504 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:21:14,504 - __main__ - INFO - Elaborating query: Twenty One Pilots
+2024-10-10 17:21:14,504 - __main__ - INFO - Using proxy: 213.204.19.189:50100
+2024-10-10 17:21:15,109 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:21:28,437 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=Twenty One Pilots
+2024-10-10 17:21:28,555 - __main__ - INFO - 0 events found
+2024-10-10 17:21:28,715 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:21:29,209 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:21:29,209 - __main__ - INFO - Elaborating query: ANNA
+2024-10-10 17:21:29,209 - __main__ - INFO - Using proxy: 213.204.19.34:50100
+2024-10-10 17:21:29,549 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:22:07,855 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=ANNA
+2024-10-10 17:22:12,934 - __main__ - INFO - Navigating tickets page: /searchresult/eventseries/3242732
+2024-10-10 17:22:19,266 - __main__ - INFO - ✅ Found tickets container in tickets page
+2024-10-10 17:22:24,364 - __main__ - INFO - 🏁 Process completed (ID: 101589) - Duration: 1.10 min, Search pages scraped: 2, Found events: 1, Final ticket pages scraped: 0, Notifications sent: 0
+2024-10-10 17:22:24,364 - __main__ - INFO - CPU usage: 24.50% | Memory usage: 87.82 MB
+2024-10-10 17:22:24,365 - __main__ - INFO - Lock released.
+2024-10-10 17:22:35,013 - __main__ - INFO - 
+
+
+2024-10-10 17:22:35,014 - __main__ - INFO - 🚀 Starting new process (ID: 102540)
+2024-10-10 17:22:35,049 - botocore.credentials - INFO - Found credentials from IAM Role: AllowEC2ReceiveDeleteMessagesTaskTicketQueue
+2024-10-10 17:22:35,241 - sqs_utils - INFO - Retrieved 6 messages that will be deleted.
+2024-10-10 17:22:35,313 - __main__ - INFO - Search query list: ['Twenty One Pilots', 'ANNA']
+2024-10-10 17:22:35,426 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:22:36,068 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:22:36,069 - __main__ - INFO - Elaborating query: Twenty One Pilots
+2024-10-10 17:22:36,069 - __main__ - INFO - Using proxy: 213.204.18.186:50100
+2024-10-10 17:22:36,453 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:22:54,522 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=Twenty One Pilots
+2024-10-10 17:22:54,641 - __main__ - INFO - 0 events found
+2024-10-10 17:22:54,860 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:22:55,358 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:22:55,358 - __main__ - INFO - Elaborating query: ANNA
+2024-10-10 17:22:55,358 - __main__ - INFO - Using proxy: 213.204.18.36:50100
+2024-10-10 17:22:55,716 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:23:10,446 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=ANNA
+2024-10-10 17:23:19,766 - __main__ - INFO - Navigating tickets page: /searchresult/eventseries/3242732
+2024-10-10 17:23:25,497 - __main__ - INFO - ✅ Found tickets container in tickets page
+2024-10-10 17:23:31,601 - __main__ - INFO - 🏁 Process completed (ID: 102540) - Duration: 0.84 min, Search pages scraped: 2, Found events: 1, Final ticket pages scraped: 0, Notifications sent: 0
+2024-10-10 17:23:31,602 - __main__ - INFO - CPU usage: 25.10% | Memory usage: 87.31 MB
+2024-10-10 17:23:31,602 - __main__ - INFO - Lock released.
+2024-10-10 17:23:42,551 - __main__ - INFO - 
+
+
+2024-10-10 17:23:42,551 - __main__ - INFO - 🚀 Starting new process (ID: 103429)
+2024-10-10 17:23:42,581 - botocore.credentials - INFO - Found credentials from IAM Role: AllowEC2ReceiveDeleteMessagesTaskTicketQueue
+2024-10-10 17:23:42,728 - sqs_utils - INFO - Retrieved 4 messages that will be deleted.
+2024-10-10 17:23:42,772 - __main__ - INFO - Search query list: ['ANNA', 'Twenty One Pilots']
+2024-10-10 17:23:42,861 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:23:43,393 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:23:43,394 - __main__ - INFO - Elaborating query: ANNA
+2024-10-10 17:23:43,394 - __main__ - INFO - Using proxy: 213.204.18.76:50100
+2024-10-10 17:23:44,003 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:23:53,452 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=ANNA
+2024-10-10 17:24:45,514 - __main__ - INFO - Navigating tickets page: /searchresult/eventseries/3242732
+2024-10-10 17:24:53,483 - __main__ - INFO - ✅ Found tickets container in tickets page
+2024-10-10 17:24:53,709 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:24:54,188 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:24:54,188 - __main__ - INFO - Elaborating query: Twenty One Pilots
+2024-10-10 17:24:54,189 - __main__ - INFO - Using proxy: 213.204.21.104:50100
+2024-10-10 17:24:54,518 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:25:48,587 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=Twenty One Pilots
+2024-10-10 17:25:48,703 - __main__ - INFO - 0 events found
+2024-10-10 17:25:54,769 - __main__ - INFO - 🏁 Process completed (ID: 103429) - Duration: 2.10 min, Search pages scraped: 2, Found events: 1, Final ticket pages scraped: 0, Notifications sent: 0
+2024-10-10 17:25:54,770 - __main__ - INFO - CPU usage: 22.50% | Memory usage: 87.24 MB
+2024-10-10 17:25:54,770 - __main__ - INFO - Lock released.
+2024-10-10 17:26:02,814 - __main__ - INFO - 
+
+
+2024-10-10 17:26:02,814 - __main__ - INFO - 🚀 Starting new process (ID: 104491)
+2024-10-10 17:26:02,839 - botocore.credentials - INFO - Found credentials from IAM Role: AllowEC2ReceiveDeleteMessagesTaskTicketQueue
+2024-10-10 17:26:02,980 - sqs_utils - INFO - Retrieved 10 messages that will be deleted.
+2024-10-10 17:26:03,086 - __main__ - INFO - Search query list: ['ANNA', 'Twenty One Pilots']
+2024-10-10 17:26:03,167 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:26:03,652 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:26:03,652 - __main__ - INFO - Elaborating query: ANNA
+2024-10-10 17:26:03,652 - __main__ - INFO - Using proxy: 213.204.18.36:50100
+2024-10-10 17:26:04,026 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:26:28,260 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=ANNA
+2024-10-10 17:26:35,109 - __main__ - INFO - Navigating tickets page: /searchresult/eventseries/3242732
+2024-10-10 17:26:42,476 - __main__ - INFO - ✅ Found tickets container in tickets page
+2024-10-10 17:26:42,743 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:26:43,222 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:26:43,222 - __main__ - INFO - Elaborating query: Twenty One Pilots
+2024-10-10 17:26:43,222 - __main__ - INFO - Using proxy: 213.204.19.70:50100
+2024-10-10 17:26:43,614 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:27:55,910 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=Twenty One Pilots
+2024-10-10 17:27:56,103 - __main__ - INFO - 0 events found
+2024-10-10 17:28:03,232 - __main__ - INFO - 🏁 Process completed (ID: 104491) - Duration: 1.89 min, Search pages scraped: 2, Found events: 1, Final ticket pages scraped: 0, Notifications sent: 0
+2024-10-10 17:28:03,233 - __main__ - INFO - CPU usage: 21.00% | Memory usage: 88.66 MB
+2024-10-10 17:28:03,233 - __main__ - INFO - Lock released.
+2024-10-10 17:28:14,183 - __main__ - INFO - 
+
+
+2024-10-10 17:28:14,183 - __main__ - INFO - 🚀 Starting new process (ID: 105570)
+2024-10-10 17:28:14,214 - botocore.credentials - INFO - Found credentials from IAM Role: AllowEC2ReceiveDeleteMessagesTaskTicketQueue
+2024-10-10 17:28:14,362 - sqs_utils - INFO - Retrieved 10 messages that will be deleted.
+2024-10-10 17:28:14,460 - __main__ - INFO - Search query list: ['ANNA', 'Twenty One Pilots']
+2024-10-10 17:28:14,544 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:28:15,021 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:28:15,021 - __main__ - INFO - Elaborating query: ANNA
+2024-10-10 17:28:15,022 - __main__ - INFO - Using proxy: 213.204.21.107:50100
+2024-10-10 17:28:15,406 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:28:26,993 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=ANNA
+2024-10-10 17:28:33,261 - __main__ - INFO - Navigating tickets page: /searchresult/eventseries/3242732
+2024-10-10 17:28:39,073 - __main__ - INFO - ✅ Found tickets container in tickets page
+2024-10-10 17:28:39,312 - __main__ - INFO - Using Chrome executable at: /bin/chromium-browser
+2024-10-10 17:28:39,890 - __main__ - INFO - Detected Chrome main version: 129
+2024-10-10 17:28:39,890 - __main__ - INFO - Elaborating query: Twenty One Pilots
+2024-10-10 17:28:39,890 - __main__ - INFO - Using proxy: 213.204.18.36:50100
+2024-10-10 17:28:40,211 - undetected_chromedriver.patcher - INFO - patching driver executable /home/ubuntu/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-10 17:28:55,269 - __main__ - INFO - Navigating event search page: https://www.fansale.it/events.htm?searchText=Twenty One Pilots
+2024-10-10 17:28:55,378 - __main__ - INFO - 0 events found

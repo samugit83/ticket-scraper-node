@@ -40,14 +40,12 @@ This system is architected with a **master server** and multiple **node servers*
 - **Database**: MongoDB
 - **Queue Service**: Amazon SQS
 - **Monitoring**: Amazon CloudWatch
-- **Hosting**: [AWS EC2]
+- **Hosting**: [AWS EC2 t3a.small for master, t3.medium for nodes]
 
 
 
 
-# THIS IS A NODE SERVER:
-
-
+# THIS IS THE REPO FOR THE NODE SERVER:
 
 ### PIP LIBRARIES GLOBAL INSTALLATION:
 sudo apt install python3-(libraryname)
@@ -66,13 +64,14 @@ sudo apt install python3-flask python3-selenium python3-bs4 python3-chromium-bro
 
 
 
-
 ### scraper.py execution mode:
 
-1) cron (default)
+1) WITH CRON (default)
 * * * * * /home/ubuntu/ticket-scraper/backend/run_scraper.sh
 
-2) with service, but it is not recommended because chromium does not work well with snap cgroup
+
+
+2) WITH SERVICE
 
 sudo nano /etc/systemd/system/scrape.service
 
@@ -96,21 +95,13 @@ StandardError=append:/home/ubuntu/ticket-scraper/backend/logs/scrape_service-err
 [Install]
 WantedBy=multi-user.target
 
-per riaviare scrapey.py:
+some command to manage the service:
 sudo systemctl stop scrape.service
-eliminare scraper.lock
 sudo systemctl start scrape.service
-
-Enable and start the service:
 sudo systemctl enable scrape.service
-sudo systemctl start scrape.service
-
 sudo systemctl status scrape.service
-
 sudo systemctl daemon-reload 
 sudo systemctl restart scrape.service
-
-sudo systemctl stop scrape.service
 
 
 
@@ -125,7 +116,7 @@ The Ticket Scraper is a sophisticated Python-based tool designed to monitor and 
 ## **Key Features**
 
 1. **Logging and Configuration:**
-   - Utilizes Python's `logging` module with a `RotatingFileHandler` to efficiently manage log files.
+   - Utilizes Python's `logging` module with a `RotatingFileHandler` to efficiently manage log files, logging files in: /home/ubuntu/ticket-scraper/backend/logs
    - Configures essential URLs and file paths for logging and parameter updates.
 
 2. **Proxy and User-Agent Management:**
