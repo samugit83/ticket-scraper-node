@@ -398,7 +398,7 @@ def find_ticket(searchQuery, queryTickets, nrFoundEventsChecked, nrFinalTicketPa
 
     return nrFoundEventsChecked, nrFinalTicketPageChecked, notifSent
 
-lock_file_path = "/home/ubuntu/ticket-scraper/backend/scraper.lock"  
+lock_file_path = "/home/ubuntu/ticket-scraper/backend/scraper_iter.lock"  
 
 def acquire_lock():
     if os.path.exists(lock_file_path):
@@ -431,22 +431,11 @@ def handle_signal(signum, frame):
 
 
 
-def cleanup_orphaned_chrome_processes():
-    for proc in psutil.process_iter(['name']):
-        if proc.info['name'] and ('chrome' in proc.info['name'].lower() or 'chromium' in proc.info['name'].lower()):
-            try:
-                proc.kill()
-                logger.info(f"Killed orphaned Chrome process: PID {proc.pid}")
-            except Exception as e:
-                logger.error(f"Error killing Chrome process {proc.pid}: {e}")
-
-
 def main():
     signal.signal(signal.SIGINT, handle_signal)
     signal.signal(signal.SIGTERM, handle_signal)
 
     with lock_script():
-        cleanup_orphaned_chrome_processes()
         process_id = os.getpid()
         start_time = time.time()
         nrSearchQueries = 0

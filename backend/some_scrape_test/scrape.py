@@ -190,16 +190,25 @@ def managed_driver(version_main, chrome_options, chrome_path):
         logger.error(f"Chrome executable not found at {chrome_path}.")
         raise RuntimeError("Chrome executable not found.")
 
-    driver = uc.Chrome(
-        version_main=version_main,
-        options=chrome_options,
-        browser_executable_path=chrome_path,  # Dynamic path to Chromium
-        timeout=60
-    )
+    driver = None
     try:
+        driver = uc.Chrome(
+            version_main=version_main,
+            options=chrome_options,
+            browser_executable_path=chrome_path,  # Dynamic path to Chromium
+            timeout=60
+        )
         yield driver
+    except Exception as e:
+        logger.error(f"Exception within managed_driver: {e}")
+        logger.error(traceback.format_exc())
+        raise  # Re-raise exception after logging
     finally:
-        driver.quit()
+        if driver:
+            try:
+                driver.quit()
+            except Exception as e:
+                logger.error(f"Error quitting Chrome driver: {e}")
 
 
 def log_resource_usage():
@@ -377,8 +386,15 @@ def find_ticket(searchQuery, queryTickets, nrFoundEventsChecked, nrFinalTicketPa
                         gc.collect()
 
     except Exception as e:
-        logger.error(f"An error occurred: {str(e)}")
+        logger.error(f"An error occurred in find_ticket: {str(e)}")
         logger.error(traceback.format_exc())
+        # Ensure driver is quit if an exception occurs
+        if driver:
+            try:
+                driver.quit()
+                logger.info("Chrome driver quit after exception in find_ticket.")
+            except Exception as ex:
+                logger.error(f"Error quitting Chrome driver in find_ticket: {ex}")
 
     return nrFoundEventsChecked, nrFinalTicketPageChecked, notifSent
 
@@ -413,11 +429,24 @@ def handle_signal(signum, frame):
     release_lock()
     sys.exit(0)
 
+
+
+def cleanup_orphaned_chrome_processes():
+    for proc in psutil.process_iter(['name']):
+        if proc.info['name'] and ('chrome' in proc.info['name'].lower() or 'chromium' in proc.info['name'].lower()):
+            try:
+                proc.kill()
+                logger.info(f"Killed orphaned Chrome process: PID {proc.pid}")
+            except Exception as e:
+                logger.error(f"Error killing Chrome process {proc.pid}: {e}")
+
+
 def main():
     signal.signal(signal.SIGINT, handle_signal)
     signal.signal(signal.SIGTERM, handle_signal)
 
     with lock_script():
+        cleanup_orphaned_chrome_processes()
         process_id = os.getpid()
         start_time = time.time()
         nrSearchQueries = 0
