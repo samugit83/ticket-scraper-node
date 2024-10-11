@@ -305,10 +305,18 @@ def find_ticket(searchQuery, queryTickets, nrFoundEventsChecked, nrFinalTicketPa
                             current_datetime = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                             payload = {'parameter_name': 'antiscraper_detected', 'parameter_value': f'ticket page - {current_datetime}'}
                             headers = {'Content-Type': 'application/json'}
+
                             try:
-                                response = requests.post(update_parameter_url, json=payload, headers=headers)
+                                response = requests.post(
+                                    update_parameter_url,
+                                    json=payload,
+                                    headers=headers,
+                                    timeout=10  # Timeout after 10 seconds
+                                )
                                 if response.status_code != 200:
-                                    logger.error(f"Failed to update antiscraper_detected parameter on master server")
+                                    logger.error("Failed to update antiscraper_detected parameter on master server")
+                            except requests.Timeout:
+                                logger.error("Timeout o send antiscraper_detected update timed out.")
                             except Exception as e:
                                 logger.error(f"Failed to send antiscraper_detected update: {e}")
 
@@ -344,10 +352,18 @@ def find_ticket(searchQuery, queryTickets, nrFoundEventsChecked, nrFinalTicketPa
                                         current_datetime = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                                         payload = {'parameter_name': 'antiscraper_detected', 'parameter_value': f'final ticket page - {current_datetime}'}
                                         headers = {'Content-Type': 'application/json'}
+
                                         try:
-                                            response = requests.post(update_parameter_url, json=payload, headers=headers)
+                                            response = requests.post(
+                                                update_parameter_url,
+                                                json=payload,
+                                                headers=headers,
+                                                timeout=10  # Timeout after 10 seconds
+                                            )
                                             if response.status_code != 200:
-                                                logger.error(f"Failed to update antiscraper_detected parameter on master server")
+                                                logger.error("Failed to update antiscraper_detected parameter on master server")
+                                        except requests.Timeout:
+                                            logger.error("Timout to send antiscraper_detected update timed out.")
                                         except Exception as e:
                                             logger.error(f"Failed to send antiscraper_detected update: {e}")
 
@@ -522,10 +538,16 @@ def main():
             payload = {'parameter_name': 'duration', 'parameter_value': round(duration_seconds)}
             headers = {'Content-Type': 'application/json'}
             try:
-                response = requests.post(update_parameter_url, json=payload, headers=headers)
-
+                response = requests.post(
+                    update_parameter_url,
+                    json=payload,
+                    headers=headers,
+                    timeout=10  # Timeout after 10 seconds
+                )
                 if response.status_code != 200:
                     logger.error("Failed to update duration parameter on master server")
+            except requests.Timeout:
+                logger.error("Request to update duration parameter timed out.")
             except Exception as e:
                 logger.error(f"Failed to send duration update: {e}")
 

@@ -40,7 +40,7 @@ This system is architected with a **master server** and multiple **node servers*
 - **Database**: MongoDB
 - **Queue Service**: Amazon SQS
 - **Monitoring**: Amazon CloudWatch
-- **Hosting**: [AWS EC2 t3a.small for master, t3.medium for nodes]
+- **Hosting**: [AWS EC2 t3a.small for master, t3a.medium for nodes]
 
 
 
