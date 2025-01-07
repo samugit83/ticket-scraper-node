@@ -88,7 +88,7 @@ def get_proxy():
     "213.204.21.143:50100",
     "213.204.21.149:50100",
     "213.204.18.8:50100",
-    "213.204.21.155:50100"] #proxiseller.com account Luigi   
+    "213.204.21.155:50100"]
 
     return random.choice(proxies)  
 
